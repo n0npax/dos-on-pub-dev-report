@@ -1,3 +1,9 @@
+# Given README.md is just extended copy of Report provided to google
+
+Report was rewarded with $500 bug bounty: https://issuetracker.google.com/issues/182062672
+
+---
+
 # pub.dev DoS vulnerability 
 
 Looks like https://pub.dev/ (https://github.com/dart-lang/pub-dev) is a subject to DoS attack.
@@ -30,3 +36,15 @@ pub publish
 2. `pub.dev` is not responsive anymore ~> timeout ~> DoS
 
 Please refer to screenshots
+
+---
+
+# additional resources
+
+In addition to the report following images were shared:
+
+![image info](./during-dos.png)
+
+![image info](./server-logs.png)
+
+![image info](./pub-dev-attack.svg)
